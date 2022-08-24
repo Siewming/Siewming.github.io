@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<!--Visible Area-->
+    <!--Visible Area-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--Link to W3.CSS framework-->
+    <!--Link to W3.CSS framework-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-	<!--Link to Google Fonts-->
+    <!--Link to Google Fonts-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -17,6 +17,15 @@
       header {
         margin-top: 30px;
       }
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white;
+        font-size: xx-large;
+        padding: 70px;
+        margin: 30px;
+      }
     </style>
     <title>Insight Share Business Profile</title>
   </head>
@@ -26,8 +35,9 @@
       style="top: 0; overflow: hidden; position: fixed"
       class="w3-bar w3-black"
     >
-	<!--Creating navigation bar for same page navigation-->
+      <!--Creating navigation bar for same page navigation-->
       <a href="#logo" class="w3-bar-item w3-button">LOGO</a>
+      <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
       <a href="#mission" class="w3-bar-item w3-button">MISSION</a>
       <a href="#history" class="w3-bar-item w3-button">HISTORY</a>
       <a href="#products" class="w3-bar-item w3-button"
@@ -35,35 +45,58 @@
       >
       <a href="#join" class="w3-bar-item w3-button">JOIN INSIGHT FAM!!</a>
       <a href="#slogan" class="w3-bar-item w3-button">OUR SLOGAN</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
+      <a href="sales.html" class="w3-bar-item w3-button">LANDING PAGE</a>
       <a href="store" class="w3-bar-item w3-button">SHOP</a>
     </div>
 
-	<!--Header: Business Profile Page-->
-	<header>
-	  <div class="w3-panel w3-blue">
-		<h1 class="w3-text-orange" style="text-shadow:1px 1px 0 #444" >
-		<b>INSIGHT SHARE BUSINESS PROFILE</b></h1>
-	  </div>
-	</header>
-
-	<!--Logo-->
-      <div id="logo" class="w3-panel w3-pale-green">
-        <h1>INSIGHT SHARE LOGO</h1>
+    <!--Header: Business Profile Page-->
+    <header>
+      <div class="w3-panel w3-blue">
+        <h1 class="w3-text-orange" style="text-shadow: 1px 1px 0 #444">
+          <b>INSIGHT SHARE BUSINESS PROFILE</b>
+        </h1>
       </div>
+    </header>
 
-      <img
-        src="insight_share_logo.jpg"
-        alt="INSIGHT SHARE @ FACTORY OF INSIGHTS!"
-        height="250"
-        width="250"
-      />
-    
-    <br><br>
+    <!--Logo-->
+    <div id="logo" class="w3-panel w3-pale-green">
+      <h1>INSIGHT SHARE LOGO</h1>
+    </div>
 
-	  <!--Mission-->
-	  <div id="mission" class="w3-panel w3-pale-green">
-		<h1>Mission Statement</h1>
-	  </div>
+    <img
+      src="insight_share_logo.jpg"
+      alt="INSIGHT SHARE @ FACTORY OF INSIGHTS!"
+      height="250"
+      width="250"
+      class="w3-circle"
+    />
+
+    <br /><br />
+
+    <!--About Us-->
+    <div id="about" class="w3-panel w3-pale-green">
+      <h1>ABOUT US</h1>
+    </div>
+
+    <div class="w3-card-4 w3-margin">
+      <header class="w3-container w3-blue">
+        <h1>Insight Share</h1>
+      </header>
+      <div class="w3-container">
+        <h3 class="w3-margin-bottom">1 new friend request</h2>
+        <img src="insight_share_logo.jpg" alt="INSIGHT SHARE" class="w3-left w3-circle w3-margin-right" style="width:220px">
+        <h2>We are a gamification-based reading community, serving anyone with the interest to read and gain insights.
+          We work on a subscription basis, and books are read in any preferred version, preferably digital version, with EPUB format, using Adobe Digital Editions.
+          We aim to gamify the entire process of 'insighting', a word we created to mean creating and sharing insights from reading.</h2><br>
+      </div>
+      <button class="w3-button w3-block w3-dark-grey">+ Connect</button>
+    </div>
+
+    <!--Mission-->
+    <div id="mission" class="w3-panel w3-pale-green">
+      <h1>Mission Statement</h1>
+    </div>
 
     <div class="w3-container">
       <div class="w3-card-4" style="width: 50%">
@@ -88,123 +121,287 @@
               CARE!
             </li>
             <li>
-              We call our book VESSELS because they are just vehicles for
-              LOVE AND INSIGHTS!
+              We call our book VESSELS because they are just vehicles for LOVE
+              AND INSIGHTS!
             </li>
-            </ul>
-          </div>
+          </ul>
+        </div>
 
-        <footer class="w3-container w3-blue">
+        <div class="w3-container w3-blue">
           <h2>BY INSIGHT SHARE @ FACTORY OF INSIGHTS</h2>
-        </footer>
-      </div>
-    </div>
-
-    <br><br>
-
-	  <!--History-->
-    <div id="history" class="w3-panel w3-pale-green">
-       <h1>History</h1>
-    </div>
-
-      <table class="w3-table-all">
-        <tr>
-          <th>Date and Time</th>
-          <th>Event</th>
-        </tr>
-        <tr>
-          <td>10 June 2022</td>
-          <td>
-            <ul>
-              <li>
-                Due to Benih Final Project, idea for Insight Share is born as a
-                test idea.
-              </li>
-              <li>Created the Insight Share Logo.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>25 June 2022</td>
-          <td>
-            <ul>
-              <li>Introduced TWO(2) books as VESSELS</li>
-              <li>Introduced Insight Fam Pro++</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>16 July 2022</td>
-          <td>
-            <ul>
-              <li>Introduced RM15 A Month Subscription Plan</li>
-              <li>Decided to Create A Discord Server for Insight Fam</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-
-	  <!--Products-->
-      <h1>Products and Services</h1>
-
-      <dl>
-        <dt>Atomic Habits</dt>
-        <dd>A VESSEL on beating procrastination!</dd>
-        <dt>How To Stop Worrying and Start Living</dt>
-        <dd>A VESSEL on taming the "WHAT IFS..."!</dd>
-      </dl>
-
-	  <!--Join Insight Share-->
-      <h1>Be a INSIGHT SHARE FAM Now!!</h1>
-
-      <form action="/action.php" method="post">
-        Name: <input name="name" type="text" /> <br />
-
-        Email: <input name="email" type="text" /> <br />
-
-        Age:
-        <select name="age">
-          <option selected="selected" value="below13">Below 13</option>
-          <option value="13-17">13 to 17</option>
-          <option value="18-25">18 to 25</option>
-          <option value="26-40">26 to 40</option>
-          <option value="41-60">41 to 60</option>
-          <option value="above60">Above 60</option>
-        </select>
-        <br />
-
-        Gender:
-        <input checked="checked" name="newsletter" type="radio" value="male" />
-        Male <input name="newsletter" type="radio" value="female" /> Female
-        <br />
-
-        <textarea cols="20" name="comments" rows="5">Your Message</textarea
-        ><br />
-
-        <label
-          ><input name="terms" type="checkbox" value="tandc" />Agree to receive
-          emails from Insight Share</label
-        >
-        <br />
-
-        <input type="submit" value="Submit" />
-      </form>
-
-
-      <!--Insight Share Slogan-->
-      <div class="w3-container">
-        <h1>OUR SLOGAN</h1>
-
-        <div class="w3-panel w3-leftbar">
-          <p>
-            <i class="fa fa-quote-right w3-xxlarge"></i><br />
-            <i class="w3-serif w3-xlarge">
-              Creating Insights, Here In Insight Factory. Changing Lives,
-              Insights Through Insights!</i
-            >
-          </p>
         </div>
       </div>
     </div>
+
+    <br /><br />
+
+    <!--History-->
+    <div id="history" class="w3-panel w3-pale-green">
+      <h1>History</h1>
+    </div>
+
+    <table class="w3-table-all" border="1">
+      <tr class="w3-light-grey w3-hover-red">
+        <th>Date and Time</th>
+        <th>Event</th>
+      </tr>
+      <tr class="w3-hover-blue">
+        <td>10 June 2022</td>
+        <td>
+          <ul>
+            <li>
+              Due to Benih Final Project, idea for Insight Share is born as a
+              test idea.
+            </li>
+            <li>Created the Insight Share Logo.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr class="w3-hover-indigo">
+        <td>25 June 2022</td>
+        <td>
+          <ul>
+            <li>Introduced TWO(2) books as VESSELS</li>
+            <li>Introduced Insight Fam Pro++</li>
+          </ul>
+        </td>
+      </tr>
+      <tr class="w3-hover-pink">
+        <td>16 July 2022</td>
+        <td>
+          <ul>
+            <li>Introduced RM15 A Month Subscription Plan</li>
+            <li>Decided to Create A Discord Server for Insight Fam</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <br><br>
+
+    <!--Products-->
+    <div id="products" class="w3-panel w3-pale-green">
+      <h1>Vessels And Subscriptions</h1>
+    </div>
+
+    <button
+      onclick="myFunction('Demo4')"
+      class="w3-button w3-block w3-black w3-left-align"
+    >
+      ATOMIC HABITS
+    </button>
+    <div id="Demo4" class="w3-hide w3-animate-zoom">
+      <a
+      href="https://www.bookdepository.com/Atomic-Habits-James-Clear/9781847941831"
+      class="w3-button w3-block w3-left-align"
+      ><img src="atomic.jpg" alt="ATOMIC HABITS" width="500" height="500"></a
+      >
+      <a
+        href="https://www.bookdepository.com/Atomic-Habits-James-Clear/9781847941831"
+        class="w3-button w3-block w3-left-align"
+        >VESSEL on breaking bad habits and forming good ones</a
+      >
+      </div>
+      <button
+        onclick="myFunction('Demo5')"
+        class="w3-button w3-block w3-black w3-left-align"
+      >
+        HOW TO STOP WORRYING AND START LIVING
+      </button>
+      <div id="Demo5" class="w3-hide w3-animate-zoom">
+        <a
+          href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
+          class="w3-button w3-block w3-left-align"
+          >VESSEL on combating worries and having hope</a
+        >
+      </div>
+      <button
+        onclick="myFunction('Demo6')"
+        class="w3-button w3-block w3-black w3-left-align"
+      >
+        GETTING THINGS DONE
+      </button>
+      <div id="Demo6" class="w3-hide w3-animate-zoom">
+        <a
+          href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
+          class="w3-button w3-block w3-left-align"
+          >VESSEL on aCtUaLlY increasing productivity</a
+        >
+      </div>
+
+      <script>
+        function myFunction(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else {
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+      </script>
+
+      <!--Join Insight Share-->
+      <div id="join" class="w3-panel w3-pale-green">
+        <h1>Join Insight Fam Now!!!</h1>
+      </div>
+
+      <div class="w3-card-4">
+        <div class="w3-container w3-purple">
+          <h2>INSIGHT SHARE MEMBERSHIP FORM</h2>
+        </div>
+        <form class="w3-container" action="/action_page.php">
+          <p>
+            <label class="w3-text-purple"><b>First Name</b></label>
+            <input
+              class="w3-input w3-border w3-sand"
+              name="first"
+              type="text"
+            />
+          </p>
+          <p>
+            <label class="w3-text-purple"><b>Last Name</b></label>
+            <input class="w3-input w3-border w3-sand" name="last" type="text" />
+          </p>
+          <p>
+            <label class="w3-text-purple"><b>Age</b></label>
+            <select class="w3-select w3-border" name="option">
+              <option value="" disabled selected>Choose your age range</option>
+              <option value="1">Below 13</option>
+              <option value="2">13 to 17</option>
+              <option value="3">18 to 25</option>
+              <option value="4">26 to 40</option>
+              <option value="5">41 to 60</option>
+              <option value="6">Above 60</option>
+            </select>
+          </p>
+          <label class="w3-text-purple"><b>Gender</b></label>
+          <p>
+            <input
+              class="w3-radio"
+              type="radio"
+              name="gender"
+              value="male"
+              checked
+            />
+            <label>Male</label>
+          </p>
+          <p>
+            <input class="w3-radio" type="radio" name="gender" value="female" />
+            <label>Female</label>
+          </p>
+          <p>
+            <input class="w3-radio" type="radio" name="gender" value="" />
+            <label>Prefer not to say</label>
+          </p>
+          <p>
+            <label class="w3-text-purple"><b>Your Message</b></label>
+            <textarea
+              class="w3-input w3-border"
+              style="resize: none"
+            ></textarea>
+          </p>
+          <label class="w3-text-purple"><b>Subscriptions</b></label>
+          <p>
+            <input class="w3-check" type="checkbox" />
+            <label>Agree to receive emails about latest announcements</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" />
+            <label>Agree to receive emails about great books to read</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" />
+            <label>Agree to receive emails about classic literature</label>
+          </p>
+          <p>
+            <button class="w3-btn w3-purple">Submit</button>
+          </p>
+        </form>
+      </div>
+
+      <!--Insight Share Slogan-->
+      <div id="slogan" class="w3-panel w3-pale-green">
+        <h1>OUR SLOGAN</h1>
+      </div>
+
+      <div class="w3-panel w3-card-4 w3-center">
+        <span style="font-size:100px">&#10077;</span><br>
+        <p style="margin-top:-60px; font-size: xx-large;">
+        <i><b>True Reading Creates Insights And Spread Them Around!</b></i></p>
+      </div>
+    </div>
+
+    <!--CONTACT US-->
+    <div id="contact" class="w3-panel w3-pale-green">
+      <h1>CONTACT US</h1>
+    </div>
+
+    <button
+      onclick="myFunction('Demo1')"
+      class="w3-button w3-block w3-black w3-left-align"
+    >
+      <h2>Whatsapp</h2>
+      <img src="whatsapp.png" alt="WHATSAPP" width="150" height="150">
+    </button>
+    <div id="Demo1" class="w3-hide w3-animate-zoom">
+      <a href="http://wa.link/q86cex" class="w3-button w3-block w3-left-align"
+        >Siew Ming</a
+      >
+      <a href="https://wa.link/jw33nu" class="w3-button w3-block w3-left-align"
+        >Kok Shun</a
+      >
+    </div>
+
+    <button
+      onclick="myFunction('Demo2')"
+      class="w3-button w3-block w3-black w3-left-align"
+    >
+      Email
+    </button>
+    <div id="Demo2" class="w3-hide w3-animate-zoom">
+      <a href="https://www.google.com/" class="w3-button w3-block w3-left-align"
+        >Wanikah</a
+      >
+      <a
+        href="https://www.atlassian.com/blog/productivity/what-is-parkinsons-law#:~:text=What%20is%20Parkinson%27s%20Law%3F,%E2%80%9CThe%20Economist%E2%80%9D%20in%201955."
+        class="w3-button w3-block w3-left-align"
+        >Suzaidi</a
+      >
+    </div>
+
+    <button
+      onclick="myFunction('Demo3')"
+      class="w3-button w3-block w3-black w3-left-align"
+    >
+      Address
+    </button>
+    <div id="Demo3" class="w3-hide w3-animate-zoom">
+      <a
+        href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
+        class="w3-button w3-block w3-left-align"
+        >Headquarters</a
+      >
+      <a
+        href="https://maps.app.goo.gl/Wam4hakSjRFPFWPi9"
+        class="w3-button w3-block w3-left-align"
+        >JB Branch</a
+      >
+    </div>
+
+    <script>
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  <footer>
+      <p>HAPPY READING!</p> 
+      <img src="meme.jpg" alt="READING MEME" width="700" height="700" class="center">
+  </footer>
   </body>
 </html>
