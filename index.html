@@ -11,6 +11,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       body {
         background-color: mediumspringgreen;
       }
@@ -40,9 +43,8 @@
       <a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
       <a href="#mission" class="w3-bar-item w3-button">MISSION</a>
       <a href="#history" class="w3-bar-item w3-button">HISTORY</a>
-      <a href="#products" class="w3-bar-item w3-button"
-        >PRODUCTS AND SERVICES</a
-      >
+      <a href="#vessels" class="w3-bar-item w3-button">VESSELS</a>
+      <a href="#products" class="w3-bar-item w3-button">PRODUCTS</a>
       <a href="#join" class="w3-bar-item w3-button">JOIN INSIGHT FAM!!</a>
       <a href="#slogan" class="w3-bar-item w3-button">OUR SLOGAN</a>
       <a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
@@ -179,10 +181,35 @@
 
     <br><br>
 
-    <!--Products-->
-    <div id="products" class="w3-panel w3-pale-green">
-      <h1>Vessels And Subscriptions</h1>
+    <!--Vessels-->
+    <div id="vessels" class="w3-panel w3-pale-green">
+      <h1>Vessels</h1>
     </div>
+
+    <h2 class="w3-center">Available Vessels</h2>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides" src="atomic.jpg" style="width:100%">
+      <img class="mySlides" src="worry.jpg" style="width:100%">
+      <img class="mySlides" src="getting.jpg" style="width:100%">
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
 
     <button
       onclick="myFunction('Demo4')"
@@ -226,6 +253,104 @@
           href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
           class="w3-button w3-block w3-left-align"
           >VESSEL on aCtUaLlY increasing productivity</a
+        >
+      </div>
+
+      <!--Products-->
+    <div id="products" class="w3-panel w3-pale-green">
+      <h1>Products</h1>
+    </div>
+
+    <h2 class="w3-center">Available Subscriptions</h2>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides1" src="mini pro.png" style="width:100%">
+      <img class="mySlides1" src="pro.png" style="width:100%">
+      <img class="mySlides1" src="readingville.png" style="width:100%">
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides1");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides2" src="mini pro.png" style="width:100%">
+      <img class="mySlides2" src="pro.png" style="width:100%">
+      <img class="mySlides2" src="readingville.png" style="width:100%">
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides2");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
+    <button
+      onclick="myFunction('Demo7')"
+      class="w3-button w3-block w3-black w3-left-align"
+    >
+      Reading Ville @ Gamified reading community as an web app Access Key
+    </button>
+    <div id="Demo7" class="w3-hide w3-animate-zoom">
+      <a
+      href="https://www.bookdepository.com/Atomic-Habits-James-Clear/9781847941831"
+      class="w3-button w3-block w3-left-align"
+      ><img src="insight_share_logo.jpg" alt="ATOMIC HABITS" width="500" height="500"></a
+      >
+      <a
+        href="https://www.bookdepository.com/Atomic-Habits-James-Clear/9781847941831"
+        class="w3-button w3-block w3-left-align"
+        >Reading Ville is a gamified reading community, powered by RPG elements. To access the app, you need a unique access key, which you get by paying an one-time access fee, of RM10.</a
+      >
+      </div>
+      <button
+        onclick="myFunction('Demo8')"
+        class="w3-button w3-block w3-black w3-left-align"
+      >
+        Insight Share Fam Mini Pro ++ Subscription<br>
+      </button>
+      <div id="Demo8" class="w3-hide w3-animate-zoom">
+        <a
+          href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
+          class="w3-button w3-block w3-left-align"
+          >Reading Ville Subscription for 1 DAY, which entitles you to all perks in Reading Ville, plus you get access to an exclusive Discord server, to earn more Reading Potion by sharing insights!</a
+        >
+      </div>
+      <button
+        onclick="myFunction('Demo9')"
+        class="w3-button w3-block w3-black w3-left-align"
+      >
+        Insight Share Fam Pro ++ Subscription<br>
+      </button>
+      <div id="Demo9" class="w3-hide w3-animate-zoom">
+        <a
+          href="https://maps.app.goo.gl/HUnxKMnaJUdYguN28"
+          class="w3-button w3-block w3-left-align"
+          ><br>Reading Ville Subscription for 1 MONTH, which entitles you to all perks in Reading Ville, plus you get access to an exclusive Discord server, to earn more Reading Potion by sharing insights!</a
         >
       </div>
 
